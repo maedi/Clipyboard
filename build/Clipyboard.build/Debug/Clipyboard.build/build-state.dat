@@ -1,0 +1,1045 @@
+TClipyboard
+v7
+r0
+t322378288.583182
+cCheck dependencies
+cProcessInfoPlistFile /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Info.plist Clipyboard-Info.plist
+cCopyStringsFile /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/Apa/Dropbox/dev/Clipyboard_Mac/English.lproj/MainMenu.xib
+cCpResource build/Debug/Clipyboard.app/Contents/Resources/icon.png icon.png
+cCpResource build/Debug/Clipyboard.app/Contents/Resources/clipping.icns clipping.icns
+cProcessPCH /var/folders/br/brV8Oyz8HHS1KF+O363VHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-dintifbhsdkwuvfeatvizhbrvnpq/Clipyboard_Prefix.pch.gch Clipyboard_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/Clipyboard_DataModel.mom /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_DataModel.xcdatamodel
+cCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/main.o /Users/Apa/Dropbox/dev/Clipyboard_Mac/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard_AppDelegate.o /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_AppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/AppController.o /Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clip.o /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clip.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clippings.o /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Pasteboard.o /Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard normal x86_64
+cTouch /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c000000004AC3F2CB0000000000000477
+t1254355659
+s1143
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004B448004000000000000043A
+t1262780420
+s1082
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B447F4E00000000000013E6
+t1262780238
+s5094
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.h
+c000000004D7BFFBE00000000000005B3
+t1299972030
+s1459
+i<Cocoa/Cocoa.h>
+i<ApplicationServices/ApplicationServices.h>
+i<Foundation/Foundation.h>
+i"Pasteboard.h"
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.m
+c000000004D85703D0000000000002096
+t1300590653
+s8342
+i"AppController.h"
+i"Clipyboard_AppDelegate.h"
+i"Clip.h"
+i"Pasteboard.h"
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clip.h
+c000000004D7DB9B700000000000001D4
+t1300085175
+s468
+i<CoreData/CoreData.h>
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clip.m
+c000000004D7DB9AD0000000000000112
+t1300085165
+s274
+i"Clip.h"
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.h
+c000000004D781A7A0000000000000182
+t1299716730
+s386
+i<Cocoa/Cocoa.h>
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m
+c000000004D78279C00000000000003E7
+t1299720092
+s999
+i"Clippings.h"
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_AppDelegate.h
+c000000004D7841940000000000000312
+t1299726740
+s786
+i<Cocoa/Cocoa.h>
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_AppDelegate.m
+c000000004D7816820000000000001E24
+t1299715714
+s7716
+i"Clipyboard_AppDelegate.h"
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_DataModel.xcdatamodel
+c000000004D856EC300000000000000AA
+t1300590275
+s170
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_Prefix.pch
+c000000004D72BD400000000000000099
+t1299365184
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/English.lproj/InfoPlist.strings
+c000000004D72BD3E000000000000005A
+t1299365182
+s90
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/English.lproj/MainMenu.xib
+c000000004D78BAAF00000000000088D8
+t1299757743
+s35032
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.h
+c000000004D7C21EC00000000000002F5
+t1299980780
+s757
+i<Cocoa/Cocoa.h>
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m
+c000000004D7C2206000000000000072C
+t1299980806
+s1836
+i"Pasteboard.h"
+i"AppController.h"
+i"Clipyboard_AppDelegate.h"
+i"Clip.h"
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/AppController.o
+t1300684875
+s59136
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clip.o
+t1300684875
+s6076
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clippings.o
+t1300684875
+s25392
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard.LinkFileList
+c000000004D86E04200000000000002CC
+t1300684866
+s716
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard_AppDelegate.o
+t1300684874
+s41736
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Pasteboard.o
+t1300684875
+s21360
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/main.o
+t1300684874
+s4984
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app
+t1300684876
+s102
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Info.plist
+t1300078381
+s1013
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard
+t1300684876
+s49312
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/PkgInfo
+t1300078381
+s8
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/Clipyboard_DataModel.mom
+t1300590505
+s2811
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1299715740
+s90
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/English.lproj/MainMenu.nib
+t1300078781
+s3613
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/clipping.icns
+t1300078382
+s111495
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/icon.png
+t1299715740
+s286
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/clipping.icns
+c000000004AE468DC000000000001B387
+t1256483036
+s111495
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/icon.png
+c000000004D73BAFC000000000000011E
+t1299430140
+s286
+
+N/Users/Apa/Dropbox/dev/Clipyboard_Mac/main.m
+c000000004D72BD400000000000000108
+t1299365184
+s264
+i<Cocoa/Cocoa.h>
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.h
+c000000004D78C26E000000000000049D
+t1299759726
+s1181
+i<Cocoa/Cocoa.h>
+i<ApplicationServices/ApplicationServices.h>
+i<Foundation/Foundation.h>
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m
+c000000004D78C5FB00000000000016F8
+t1299760635
+s5880
+i"AppController.h"
+i"Clipyboard_AppDelegate.h"
+i"Clip.h"
+i"Pasteboard.h"
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clip.h
+c000000004D76E0F10000000000000141
+t1299636465
+s321
+i<CoreData/CoreData.h>
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clip.m
+c000000004D76E0F100000000000000DF
+t1299636465
+s223
+i"Clip.h"
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.h
+c000000004D78B52A0000000000000182
+t1299756330
+s386
+i<Cocoa/Cocoa.h>
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m
+c000000004D78C24C00000000000003E7
+t1299759692
+s999
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard2_AppDelegate.h
+c000000004D744F45000000000000034A
+t1299468101
+s842
+i<Cocoa/Cocoa.h>
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard2_AppDelegate.m
+c000000004D744F3C0000000000001E28
+t1299468092
+s7720
+i"Clipyboard2_AppDelegate.h"
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard2_DataModel.xcdatamodel
+c000000004D76E1190000000000000088
+t1299636505
+s136
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_AppDelegate.h
+c000000004D78B1080000000000000349
+t1299755272
+s841
+i<Cocoa/Cocoa.h>
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_AppDelegate.m
+c000000004D78B1320000000000001E24
+t1299755314
+s7716
+i"Clipyboard_AppDelegate.h"
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_DataModel.xcdatamodel
+c000000004D76E1190000000000000088
+t1299636505
+s136
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_Prefix.pch
+c000000004D7357F00000000000000099
+t1299404784
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/English.lproj/InfoPlist.strings
+c000000004D7357EF000000000000005A
+t1299404783
+s90
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/English.lproj/MainMenu.xib
+c000000004D78BAAF00000000000088D8
+t1299757743
+s35032
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Pasteboard.h
+c000000004D788E1400000000000000DC
+t1299746324
+s220
+i<Cocoa/Cocoa.h>
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Pasteboard.m
+c000000004D788E1400000000000000D0
+t1299746324
+s208
+i"Pasteboard.h"
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/AppController.o
+t1299759728
+s44308
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clip.o
+t1299755348
+s5740
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clippings.o
+t1299759695
+s25408
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard.LinkFileList
+c000000004D78B14C00000000000002FC
+t1299755340
+s764
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard2_AppDelegate.o
+t2
+s0
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard_AppDelegate.o
+t1299755348
+s41896
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Pasteboard.o
+t1299755348
+s5456
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/main.o
+t1299755347
+s5000
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app
+t1299759728
+s102
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Info.plist
+t1299755340
+s928
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard
+t1299759728
+s37408
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/PkgInfo
+t1299755340
+s8
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources/Clipyboard2_DataModel.mom
+t2
+s0
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources/Clipyboard_DataModel.mom
+t1299755347
+s1295
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1299755341
+s90
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources/English.lproj/MainMenu.nib
+t1299757746
+s4443
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources/icon.png
+t1299755341
+s286
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/icon.png
+c000000004D7455AD000000000000011E
+t1299469741
+s286
+
+N/Users/grahamprichard/Dropbox/Dev/Clipyboard2/main.m
+c000000004D7357F00000000000000108
+t1299404784
+s264
+i<Cocoa/Cocoa.h>
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/AppController.h
+c000000004D7BFFBE00000000000005B3
+t1299972030
+s1459
+i<Cocoa/Cocoa.h>
+i<ApplicationServices/ApplicationServices.h>
+i<Foundation/Foundation.h>
+i"Pasteboard.h"
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/AppController.m
+c000000004D85703D0000000000002096
+t1300590653
+s8342
+i"AppController.h"
+i"Clipyboard_AppDelegate.h"
+i"Clip.h"
+i"Pasteboard.h"
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clip.h
+c000000004D7DB9B700000000000001D4
+t1300085175
+s468
+i<CoreData/CoreData.h>
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clip.m
+c000000004D7DB9AD0000000000000112
+t1300085165
+s274
+i"Clip.h"
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.h
+c000000004D781A7A0000000000000182
+t1299716730
+s386
+i<Cocoa/Cocoa.h>
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m
+c000000004D78279C00000000000003E7
+t1299720092
+s999
+i"Clippings.h"
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_AppDelegate.h
+c000000004D7841940000000000000312
+t1299726740
+s786
+i<Cocoa/Cocoa.h>
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_AppDelegate.m
+c000000004D7816820000000000001E24
+t1299715714
+s7716
+i"Clipyboard_AppDelegate.h"
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_DataModel.xcdatamodel
+c000000004D856F8700000000000000AA
+t1300590471
+s170
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_Prefix.pch
+c000000004D72BD400000000000000099
+t1299365184
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/English.lproj/InfoPlist.strings
+c000000004D72BD3E000000000000005A
+t1299365182
+s90
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/English.lproj/MainMenu.xib
+c000000004D78BAAF00000000000088D8
+t1299757743
+s35032
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.h
+c000000004D7C21EC00000000000002F5
+t1299980780
+s757
+i<Cocoa/Cocoa.h>
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m
+c000000004D7C2206000000000000072C
+t1299980806
+s1836
+i"Pasteboard.h"
+i"AppController.h"
+i"Clipyboard_AppDelegate.h"
+i"Clip.h"
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/AppController.o
+t1300590669
+s47716
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clip.o
+t1300589716
+s5116
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clippings.o
+t1300589716
+s21856
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clipyboard.LinkFileList
+c000000004D856C5500000000000002CC
+t1300589653
+s716
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clipyboard_AppDelegate.o
+t1300589715
+s35052
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Pasteboard.o
+t1300589716
+s15504
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/main.o
+t1300589714
+s4856
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app
+t1300590671
+s102
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Info.plist
+t1300078381
+s1013
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard
+t1300590671
+s38928
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/PkgInfo
+t1300078381
+s8
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/Clipyboard_DataModel.mom
+t1300590505
+s2811
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1299715740
+s90
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/English.lproj/MainMenu.nib
+t1300078781
+s3613
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/clipping.icns
+t1300078382
+s111495
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/icon.png
+t1299715740
+s286
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/clipping.icns
+c000000004AE468DC000000000001B387
+t1256483036
+s111495
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/icon.png
+c000000004D73BAFC000000000000011E
+t1299430140
+s286
+
+N/Users/maedi/Dropbox/Dev/Clipyboard_Mac/main.m
+c000000004D72BD400000000000000108
+t1299365184
+s264
+i<Cocoa/Cocoa.h>
+
+N/var/folders/br/brV8Oyz8HHS1KF+O363VHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-dintifbhsdkwuvfeatvizhbrvnpq/Clipyboard_Prefix.pch.gch
+t1300684874
+s54265616
+
+N/var/folders/d4/d4vlU1CIHnGVAjoxAf7nDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-cvkdhxbpihhkzxcuypjineculnat/Clipyboard_Prefix.pch.gch
+t1299755347
+s54265616
+
+N/var/folders/vj/vjoFQT1sHV4qgJdkQCRaIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-bkwjnvydggsxorcgvxmsaosckyia/Clipyboard_Prefix.pch.gch
+t1300589711
+s38344684
+
+NClipyboard-Info.plist
+c000000004D7839D40000000000000460
+t1299724756
+s1120
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322378288#322378288#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/AppController.o /Users/maedi/Dropbox/Dev/Clipyboard_Mac/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322283464.343323
+e322283469.633675
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/AppController.o
+x/Users/maedi/Dropbox/Dev/Clipyboard_Mac/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/maedi/Dropbox/Dev/Clipyboard_Mac/AppController.m:298: warning: incomplete implementation of class 'AppController'
+o/Users/maedi/Dropbox/Dev/Clipyboard_Mac/AppController.m:298: warning: method definition for '-gotoweb:' not found
+lSLF07#2@63"Compile /Users/maedi/Dropbox/Dev/Clipyboard_Mac/AppController.m322283464#322283469#0(235"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/AppController.m:298: warning: incomplete implementation of class 'AppController'/Users/maedi/Dropbox/Dev/Clipyboard_Mac/AppController.m:298: warning: method definition for '-gotoweb:' not found2(22@50"Incomplete implementation of class 'AppController'322283465#0#121#0(6@55"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/AppController.m322283453#298#0#298#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-gotoweb:' not found322283465#121#114#0(6@55"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/AppController.m322283453#298#0#298#0#35"method definition for '*' not found0(0#0#55"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/AppController.m2416201664#1139"    cd /Users/maedi/Dropbox/Dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/include -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/i386 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/vj/vjoFQT1sHV4qgJdkQCRaIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-bkwjnvydggsxorcgvxmsaosckyia/Clipyboard_Prefix.pch -c /Users/maedi/Dropbox/Dev/Clipyboard_Mac/AppController.m -o /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/AppController.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clip.o /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clip.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322282515.889774
+e322282516.405782
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clip.o
+x/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clip.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clip.m322282515#322282516#0(0"0(0#0#46"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clip.m4231192#1121"    cd /Users/maedi/Dropbox/Dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/include -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/i386 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/vj/vjoFQT1sHV4qgJdkQCRaIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-bkwjnvydggsxorcgvxmsaosckyia/Clipyboard_Prefix.pch -c /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clip.m -o /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clip.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clippings.o /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322282515.892944
+e322282516.422448
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clippings.o
+x/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m: In function '-[Clippings viewDidLoad]':
+o/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m:22: warning: 'NSView' may not respond to '-viewDidLoad'
+o/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m:22: warning: (Messages without a matching method signature
+o/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m:22: warning: will be assumed to return 'id' and accept
+o/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m:22: warning: '...' as arguments.)
+o/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m: At top level:
+o/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m:56: warning: method possibly missing a [super dealloc] call
+lSLF07#2@59"Compile /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m322282515#322282516#0(684"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m: In function '-[Clippings viewDidLoad]':/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m:22: warning: 'NSView' may not respond to '-viewDidLoad'/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m:22: warning: (Messages without a matching method signature/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m:22: warning: will be assumed to return 'id' and accept/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m:22: warning: '...' as arguments.)/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m: At top level:/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m:56: warning: method possibly missing a [super dealloc] call4(22@42"'NSView' may not respond to '-viewDidLoad'322282516#93#108#0(6@51"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m321412892#22#0#22#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)322282516#201#111#0(6@51"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m321412892#22#0#22#0#0"0(23@13"At top level:322282516#505#67#0(6@51"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m321412892#0#0#0#0#0"0(22@46"Method possibly missing a [super dealloc] call322282516#572#112#0(6@51"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m321412892#56#0#56#0#46"method possibly missing a [super dealloc] call0(0#0#51"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m2416201664#1131"    cd /Users/maedi/Dropbox/Dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/include -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/i386 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/vj/vjoFQT1sHV4qgJdkQCRaIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-bkwjnvydggsxorcgvxmsaosckyia/Clipyboard_Prefix.pch -c /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clippings.m -o /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clippings.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clipyboard_AppDelegate.o /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322282514.164397
+e322282515.141812
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clipyboard_AppDelegate.o
+x/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_AppDelegate.m322282514#322282515#0(0"0(0#0#64"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_AppDelegate.m2416201664#1157"    cd /Users/maedi/Dropbox/Dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/include -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/i386 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/vj/vjoFQT1sHV4qgJdkQCRaIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-bkwjnvydggsxorcgvxmsaosckyia/Clipyboard_Prefix.pch -c /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_AppDelegate.m -o /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clipyboard_AppDelegate.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Pasteboard.o /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322282516.405921
+e322282516.744354
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Pasteboard.o
+x/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m: In function '-[Pasteboard image]':
+o/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m:36: warning: unused variable 'image2'
+o/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m:35: warning: unused variable 'image'
+lSLF07#2@60"Compile /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m322282516#322282517#0(270"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m: In function '-[Pasteboard image]':/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m:36: warning: unused variable 'image2'/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m:35: warning: unused variable 'image'2(22@24"Unused variable 'image2'322282516#89#91#0(6@52"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m321673606#36#0#36#0#19"unused variable '*'0(22@23"Unused variable 'image'322282516#180#90#0(6@52"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m321673606#35#0#35#0#19"unused variable '*'0(0#0#52"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m2416201664#1133"    cd /Users/maedi/Dropbox/Dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/include -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/i386 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/vj/vjoFQT1sHV4qgJdkQCRaIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-bkwjnvydggsxorcgvxmsaosckyia/Clipyboard_Prefix.pch -c /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Pasteboard.m -o /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Pasteboard.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/main.o /Users/maedi/Dropbox/Dev/Clipyboard_Mac/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322282511.426255
+e322282514.164194
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/main.o
+x/Users/maedi/Dropbox/Dev/Clipyboard_Mac/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/maedi/Dropbox/Dev/Clipyboard_Mac/main.m322282511#322282514#0(0"0(0#0#46"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/main.m2416201664#1121"    cd /Users/maedi/Dropbox/Dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/include -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/i386 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/vj/vjoFQT1sHV4qgJdkQCRaIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-bkwjnvydggsxorcgvxmsaosckyia/Clipyboard_Prefix.pch -c /Users/maedi/Dropbox/Dev/Clipyboard_Mac/main.m -o /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/AppController.o /Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322377674.876363
+e322377675.227429
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/AppController.o
+x/Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.m:298: warning: incomplete implementation of class 'AppController'
+o/Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.m:298: warning: method definition for '-gotoweb:' not found
+lSLF07#2@61"Compile /Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.m322377674#322377675#0(231"/Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.m:298: warning: incomplete implementation of class 'AppController'/Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.m:298: warning: method definition for '-gotoweb:' not found2(22@50"Incomplete implementation of class 'AppController'322377675#0#119#0(6@53"/Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.m322283453#298#0#298#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-gotoweb:' not found322377675#119#112#0(6@53"/Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.m322283453#298#0#298#0#35"method definition for '*' not found0(0#0#53"/Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.m4300911832#1129"    cd /Users/Apa/Dropbox/dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/include -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/br/brV8Oyz8HHS1KF+O363VHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-dintifbhsdkwuvfeatvizhbrvnpq/Clipyboard_Prefix.pch -c /Users/Apa/Dropbox/dev/Clipyboard_Mac/AppController.m -o /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/AppController.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/AppController.o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321452527.745103
+e321452528.052196
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/AppController.o
+x/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m:225: warning: incomplete implementation of class 'AppController'
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m:225: warning: method definition for '-addClipToPasteboardFromCount:' not found
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m:225: warning: method definition for '-setPBBlockCount:' not found
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m:225: warning: method definition for '-clippingStringWithCount:' not found
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m:225: warning: method definition for '-isValidClippingNumber:' not found
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m:225: warning: method definition for '-clipClick:' not found
+lSLF07#2@69"Compile /Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m321452527#321452528#0(788"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m:225: warning: incomplete implementation of class 'AppController'/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m:225: warning: method definition for '-addClipToPasteboardFromCount:' not found/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m:225: warning: method definition for '-setPBBlockCount:' not found/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m:225: warning: method definition for '-clippingStringWithCount:' not found/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m:225: warning: method definition for '-isValidClippingNumber:' not found/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m:225: warning: method definition for '-clipClick:' not found6(22@50"Incomplete implementation of class 'AppController'321452527#0#127#0(6@61"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m321452441#225#0#225#0#38"incomplete implementation of class '*'0(22@64"Method definition for '-addClipToPasteboardFromCount:' not found321452527#127#141#0(6@61"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m321452441#225#0#225#0#35"method definition for '*' not found0(22@51"Method definition for '-setPBBlockCount:' not found321452527#268#128#0(6@61"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m321452441#225#0#225#0#35"method definition for '*' not found0(22@59"Method definition for '-clippingStringWithCount:' not found321452527#396#136#0(6@61"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m321452441#225#0#225#0#35"method definition for '*' not found0(22@57"Method definition for '-isValidClippingNumber:' not found321452527#532#134#0(6@61"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m321452441#225#0#225#0#35"method definition for '*' not found0(22@45"Method definition for '-clipClick:' not found321452527#666#122#0(6@61"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m321452441#225#0#225#0#35"method definition for '*' not found0(0#0#61"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m4300911832#1193"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/include -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/d4/d4vlU1CIHnGVAjoxAf7nDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-cvkdhxbpihhkzxcuypjineculnat/Clipyboard_Prefix.pch -c /Users/grahamprichard/Dropbox/Dev/Clipyboard2/AppController.m -o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/AppController.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clip.o /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clip.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322377674.970402
+e322377675.135430
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clip.o
+x/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clip.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clip.m322377674#322377675#0(0"0(0#0#44"/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clip.m4300911832#1111"    cd /Users/Apa/Dropbox/dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/include -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/br/brV8Oyz8HHS1KF+O363VHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-dintifbhsdkwuvfeatvizhbrvnpq/Clipyboard_Prefix.pch -c /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clip.m -o /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clip.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clip.o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clip.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321448147.830907
+e321448148.274505
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clip.o
+x/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clip.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clip.m321448147#321448148#0(0"0(0#0#52"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clip.m4300911832#1175"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/include -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/d4/d4vlU1CIHnGVAjoxAf7nDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-cvkdhxbpihhkzxcuypjineculnat/Clipyboard_Prefix.pch -c /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clip.m -o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clip.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clippings.o /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322377675.135525
+e322377675.348289
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clippings.o
+x/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m: In function '-[Clippings viewDidLoad]':
+o/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m:22: warning: 'NSView' may not respond to '-viewDidLoad'
+o/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m:22: warning: (Messages without a matching method signature
+o/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m:22: warning: will be assumed to return 'id' and accept
+o/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m:22: warning: '...' as arguments.)
+o/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m: At top level:
+o/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m:56: warning: method possibly missing a [super dealloc] call
+lSLF07#2@57"Compile /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m322377675#322377675#0(670"/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m: In function '-[Clippings viewDidLoad]':/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m:22: warning: 'NSView' may not respond to '-viewDidLoad'/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m:22: warning: (Messages without a matching method signature/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m:22: warning: will be assumed to return 'id' and accept/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m:22: warning: '...' as arguments.)/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m: At top level:/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m:56: warning: method possibly missing a [super dealloc] call4(22@42"'NSView' may not respond to '-viewDidLoad'322377675#91#106#0(6@49"/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m321412892#22#0#22#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)322377675#197#109#0(6@49"/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m321412892#22#0#22#0#0"0(23@13"At top level:322377675#495#65#0(6@49"/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m321412892#0#0#0#0#0"0(22@46"Method possibly missing a [super dealloc] call322377675#560#110#0(6@49"/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m321412892#56#0#56#0#46"method possibly missing a [super dealloc] call0(0#0#49"/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m3275089324280537600#1121"    cd /Users/Apa/Dropbox/dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/include -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/br/brV8Oyz8HHS1KF+O363VHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-dintifbhsdkwuvfeatvizhbrvnpq/Clipyboard_Prefix.pch -c /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clippings.m -o /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clippings.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clippings.o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321452494.894876
+e321452496.055432
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clippings.o
+x/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m: In function '-[Clippings viewDidLoad]':
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m:22: warning: 'NSView' may not respond to '-viewDidLoad'
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m:22: warning: (Messages without a matching method signature
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m:22: warning: will be assumed to return 'id' and accept
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m:22: warning: '...' as arguments.)
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m: At top level:
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m:56: warning: method possibly missing a [super dealloc] call
+lSLF07#2@65"Compile /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m321452494#321452496#0(726"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m: In function '-[Clippings viewDidLoad]':/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m:22: warning: 'NSView' may not respond to '-viewDidLoad'/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m:22: warning: (Messages without a matching method signature/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m:22: warning: will be assumed to return 'id' and accept/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m:22: warning: '...' as arguments.)/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m: At top level:/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m:56: warning: method possibly missing a [super dealloc] call4(22@42"'NSView' may not respond to '-viewDidLoad'321452495#99#114#0(6@57"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m321452492#22#0#22#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)321452495#213#117#0(6@57"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m321452492#22#0#22#0#0"0(23@13"At top level:321452495#535#73#0(6@57"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m321452492#0#0#0#0#0"0(22@46"Method possibly missing a [super dealloc] call321452495#608#118#0(6@57"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m321452492#56#0#56#0#46"method possibly missing a [super dealloc] call0(0#0#57"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m4300911832#1185"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/include -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/d4/d4vlU1CIHnGVAjoxAf7nDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-cvkdhxbpihhkzxcuypjineculnat/Clipyboard_Prefix.pch -c /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clippings.m -o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clippings.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard2_AppDelegate.o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard2_AppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard_AppDelegate.o /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_AppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322377674.485051
+e322377674.970305
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard_AppDelegate.o
+x/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_AppDelegate.m322377674#322377674#0(0"0(0#0#62"/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_AppDelegate.m4300911832#1147"    cd /Users/Apa/Dropbox/dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/include -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/br/brV8Oyz8HHS1KF+O363VHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-dintifbhsdkwuvfeatvizhbrvnpq/Clipyboard_Prefix.pch -c /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_AppDelegate.m -o /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard_AppDelegate.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard_AppDelegate.o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_AppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321448147.373917
+e321448148.036737
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard_AppDelegate.o
+x/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_AppDelegate.m:212: warning: property 'clip' requires method '-clip' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_AppDelegate.m:212: warning: property 'clip' requires the method 'setClip:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@78"Compile /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_AppDelegate.m321448147#321448148#0(411"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_AppDelegate.m:212: warning: property 'clip' requires method '-clip' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_AppDelegate.m:212: warning: property 'clip' requires the method 'setClip:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@116"Property 'clip' requires method '-clip' to be defined - use @synthesize, @dynamic or provide a method implementation321448147#0#202#0(6@70"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_AppDelegate.m321448114#212#0#212#0#0"0(22@123"Property 'clip' requires the method 'setClip:' to be defined - use @synthesize, @dynamic or provide a method implementation321448147#202#209#0(6@70"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_AppDelegate.m321448114#212#0#212#0#0"0(0#0#70"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_AppDelegate.m4300911832#1211"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/include -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/d4/d4vlU1CIHnGVAjoxAf7nDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-cvkdhxbpihhkzxcuypjineculnat/Clipyboard_Prefix.pch -c /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_AppDelegate.m -o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard_AppDelegate.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Pasteboard.o /Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322377675.227530
+e322377675.417726
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Pasteboard.o
+x/Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m: In function '-[Pasteboard image]':
+o/Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m:36: warning: unused variable 'image2'
+o/Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m:35: warning: unused variable 'image'
+lSLF07#2@58"Compile /Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m322377675#322377675#0(264"/Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m: In function '-[Pasteboard image]':/Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m:36: warning: unused variable 'image2'/Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m:35: warning: unused variable 'image'2(22@24"Unused variable 'image2'322377675#87#89#0(6@50"/Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m321673606#36#0#36#0#19"unused variable '*'0(22@23"Unused variable 'image'322377675#176#88#0(6@50"/Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m321673606#35#0#35#0#19"unused variable '*'0(0#0#50"/Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m4300911832#1123"    cd /Users/Apa/Dropbox/dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/include -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/br/brV8Oyz8HHS1KF+O363VHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-dintifbhsdkwuvfeatvizhbrvnpq/Clipyboard_Prefix.pch -c /Users/Apa/Dropbox/dev/Clipyboard_Mac/Pasteboard.m -o /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Pasteboard.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Pasteboard.o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Pasteboard.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321448148.274638
+e321448148.602625
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Pasteboard.o
+x/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Pasteboard.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Pasteboard.m321448148#321448148#0(0"0(0#0#58"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Pasteboard.m4300911832#1187"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/include -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/d4/d4vlU1CIHnGVAjoxAf7nDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-cvkdhxbpihhkzxcuypjineculnat/Clipyboard_Prefix.pch -c /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Pasteboard.m -o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Pasteboard.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/main.o /Users/Apa/Dropbox/dev/Clipyboard_Mac/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322377674.484118
+e322377674.876267
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/main.o
+x/Users/Apa/Dropbox/dev/Clipyboard_Mac/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/Apa/Dropbox/dev/Clipyboard_Mac/main.m322377674#322377674#0(0"0(0#0#44"/Users/Apa/Dropbox/dev/Clipyboard_Mac/main.m4300911832#1111"    cd /Users/Apa/Dropbox/dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/include -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/br/brV8Oyz8HHS1KF+O363VHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-dintifbhsdkwuvfeatvizhbrvnpq/Clipyboard_Prefix.pch -c /Users/Apa/Dropbox/dev/Clipyboard_Mac/main.m -o /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/main.o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321448147.167675
+e321448147.373779
+r1
+xCompileC
+xbuild/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/main.o
+x/Users/grahamprichard/Dropbox/Dev/Clipyboard2/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/grahamprichard/Dropbox/Dev/Clipyboard2/main.m321448147#321448147#0(0"0(0#0#52"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/main.m4300911832#1175"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/include -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -include /var/folders/d4/d4vlU1CIHnGVAjoxAf7nDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-cvkdhxbpihhkzxcuypjineculnat/Clipyboard_Prefix.pch -c /Users/grahamprichard/Dropbox/Dev/Clipyboard2/main.m -o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/Apa/Dropbox/dev/Clipyboard_Mac/English.lproj/MainMenu.xib
+r0
+
+CCompileXIB /Users/grahamprichard/Dropbox/Dev/Clipyboard2/English.lproj/MainMenu.xib
+s321450546.474577
+e321450546.925704
+r1
+xCompileXIB
+x/Users/grahamprichard/Dropbox/Dev/Clipyboard2/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib321450546#321450546#0(0"0(0#0#72"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/English.lproj/MainMenu.xib4300911832#351"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources/English.lproj/MainMenu.nib /Users/grahamprichard/Dropbox/Dev/Clipyboard2/English.lproj/MainMenu.xib0#
+
+CCompileXIB /Users/maedi/Dropbox/Dev/Clipyboard_Mac/English.lproj/MainMenu.xib
+r0
+
+CCopyStringsFile /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s321448140.550488
+e321448141.718690
+r1
+xCopyStringsFile
+x/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings321448140#321448141#0(0"0(0#0#77"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/English.lproj/InfoPlist.strings4300911832#383"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug/Clipyboard.app/Contents/Resources/clipping.icns clipping.icns
+r0
+
+CCpResource build/Debug/Clipyboard.app/Contents/Resources/icon.png icon.png
+s321448141.718808
+e321448141.855677
+r1
+xCpResource
+xbuild/Debug/Clipyboard.app/Contents/Resources/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png321448141#321448141#0(0"0(0#0#54"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/icon.png4300911832#348"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/grahamprichard/Dropbox/Dev/Clipyboard2/icon.png /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources0#
+
+CDataModelCompile /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/Clipyboard_DataModel.mom /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_DataModel.xcdatamodel
+r0
+
+CDataModelCompile /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources/Clipyboard2_DataModel.mom /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard2_DataModel.xcdatamodel
+r0
+
+CDataModelCompile /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources/Clipyboard_DataModel.mom /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_DataModel.xcdatamodel
+s321448147.150117
+e321448147.440652
+r1
+xDataModelCompile
+x/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources/Clipyboard_DataModel.mom
+x/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_DataModel.xcdatamodel
+lSLF07#2@86"Compile /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_DataModel.xcdatamodel321448147#321448147#0(0"0(0#0#78"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_DataModel.xcdatamodel4300911832#306"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_DataModel.xcdatamodel /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Resources/Clipyboard_DataModel.mom0#
+
+CDataModelCompile /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/Clipyboard_DataModel.mom /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_DataModel.xcdatamodel
+s322283302.326608
+e322283305.812573
+r1
+xDataModelCompile
+x/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/Clipyboard_DataModel.mom
+x/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_DataModel.xcdatamodel
+lSLF07#2@80"Compile /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_DataModel.xcdatamodel322283302#322283305#0(0"0(0#0#72"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_DataModel.xcdatamodel2416201664#288"    cd /Users/maedi/Dropbox/Dev/Clipyboard_Mac    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_DataModel.xcdatamodel /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Resources/Clipyboard_DataModel.mom0#
+
+CLd /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard normal x86_64
+s322377675.417809
+e322377676.628679
+r1
+xLd
+x/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard
+xnormal
+xx86_64
+lSLF07#2@95"Link /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard322377675#322377676#0(0"0(0#0#0"4300911832#552"    cd /Users/Apa/Dropbox/dev/Clipyboard_Mac    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug -F/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug -filelist /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard0#
+
+CLd /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard normal x86_64
+s321452528.053230
+e321452528.225590
+r1
+xLd
+x/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard
+xnormal
+xx86_64
+lSLF07#2@103"Link /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard321452528#321452528#0(0"0(0#0#0"4300911832#592"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug -F/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug -filelist /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/x86_64/Clipyboard.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard0#
+
+CLd /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard normal i386
+s322283469.634362
+e322283471.749476
+r1
+xLd
+x/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard
+xnormal
+xi386
+lSLF07#2@97"Link /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard322283469#322283471#0(0"0(0#0#0"2416201664#558"    cd /Users/maedi/Dropbox/Dev/Clipyboard_Mac    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug -F/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug -filelist /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Objects-normal/i386/Clipyboard.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/MacOS/Clipyboard0#
+
+CProcessInfoPlistFile /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Info.plist Clipyboard-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Info.plist Clipyboard-Info.plist
+s321448140.444095
+e321448140.550352
+r1
+xProcessInfoPlistFile
+x/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Info.plist
+xClipyboard-Info.plist
+lSLF07#2@29"Process Clipyboard-Info.plist321448140#321448140#0(0"0(0#0#67"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard-Info.plist4300911832#340"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    builtin-infoPlistUtility Clipyboard-Info.plist -genpkginfo /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app/Contents/Info.plist Clipyboard-Info.plist
+r0
+
+CProcessPCH /var/folders/br/brV8Oyz8HHS1KF+O363VHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-dintifbhsdkwuvfeatvizhbrvnpq/Clipyboard_Prefix.pch.gch Clipyboard_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322377666.348670
+e322377674.483900
+r1
+xProcessPCH
+x/var/folders/br/brV8Oyz8HHS1KF+O363VHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-dintifbhsdkwuvfeatvizhbrvnpq/Clipyboard_Prefix.pch.gch
+xClipyboard_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Clipyboard_Prefix.pch322377666#322377674#0(0"0(0#0#59"/Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_Prefix.pch7801131152422822912#1015"    cd /Users/Apa/Dropbox/dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/include -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -c /Users/Apa/Dropbox/dev/Clipyboard_Mac/Clipyboard_Prefix.pch -o /var/folders/br/brV8Oyz8HHS1KF+O363VHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-dintifbhsdkwuvfeatvizhbrvnpq/Clipyboard_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/d4/d4vlU1CIHnGVAjoxAf7nDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-cvkdhxbpihhkzxcuypjineculnat/Clipyboard_Prefix.pch.gch Clipyboard_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321448142.110560
+e321448147.149944
+r1
+xProcessPCH
+x/var/folders/d4/d4vlU1CIHnGVAjoxAf7nDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-cvkdhxbpihhkzxcuypjineculnat/Clipyboard_Prefix.pch.gch
+xClipyboard_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Clipyboard_Prefix.pch321448142#321448147#0(0"0(0#0#67"/Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_Prefix.pch4300911832#1071"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/include -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/x86_64 -I/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -c /Users/grahamprichard/Dropbox/Dev/Clipyboard2/Clipyboard_Prefix.pch -o /var/folders/d4/d4vlU1CIHnGVAjoxAf7nDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-cvkdhxbpihhkzxcuypjineculnat/Clipyboard_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/vj/vjoFQT1sHV4qgJdkQCRaIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-bkwjnvydggsxorcgvxmsaosckyia/Clipyboard_Prefix.pch.gch Clipyboard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322282455.134806
+e322282511.367621
+r1
+xProcessPCH
+x/var/folders/vj/vjoFQT1sHV4qgJdkQCRaIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-bkwjnvydggsxorcgvxmsaosckyia/Clipyboard_Prefix.pch.gch
+xClipyboard_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Clipyboard_Prefix.pch322282455#322282511#0(0"0(0#0#61"/Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_Prefix.pch4231192#1025"    cd /Users/maedi/Dropbox/Dev/Clipyboard_Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/Clipyboard.hmap -F/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/include -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources/i386 -I/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Clipyboard.build/Debug/Clipyboard.build/DerivedSources -c /Users/maedi/Dropbox/Dev/Clipyboard_Mac/Clipyboard_Prefix.pch -o /var/folders/vj/vjoFQT1sHV4qgJdkQCRaIU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Clipyboard_Prefix-bkwjnvydggsxorcgvxmsaosckyia/Clipyboard_Prefix.pch.gch0#
+
+CTouch /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app
+s322377676.628848
+e322377676.684682
+r1
+xTouch
+x/Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app
+lSLF07#2@70"Touch /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app322377676#322377676#0(0"0(0#0#0"4300911832#132"    cd /Users/Apa/Dropbox/dev/Clipyboard_Mac    /usr/bin/touch -c /Users/Apa/Dropbox/dev/Clipyboard_Mac/build/Debug/Clipyboard.app0#
+
+CTouch /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app
+s321452528.225706
+e321452528.250169
+r1
+xTouch
+x/Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app
+lSLF07#2@78"Touch /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app321452528#321452528#0(0"0(0#0#0"4300911832#148"    cd /Users/grahamprichard/Dropbox/Dev/Clipyboard2    /usr/bin/touch -c /Users/grahamprichard/Dropbox/Dev/Clipyboard2/build/Debug/Clipyboard.app0#
+
+CTouch /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app
+s322283471.749929
+e322283471.828188
+r1
+xTouch
+x/Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app
+lSLF07#2@72"Touch /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app322283471#322283471#0(0"0(0#0#0"2416201664#136"    cd /Users/maedi/Dropbox/Dev/Clipyboard_Mac    /usr/bin/touch -c /Users/maedi/Dropbox/Dev/Clipyboard_Mac/build/Debug/Clipyboard.app0#
+
